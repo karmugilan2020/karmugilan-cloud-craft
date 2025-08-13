@@ -56,7 +56,8 @@ export default {
 				tech: {
 					blue: 'hsl(var(--tech-blue))',
 					teal: 'hsl(var(--tech-teal))',
-					purple: 'hsl(var(--tech-purple))'
+					purple: 'hsl(var(--tech-purple))',
+					cyan: 'hsl(var(--tech-cyan))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
@@ -114,11 +115,13 @@ export default {
 			backgroundImage: {
 				'cloud-gradient': 'var(--cloud-gradient)',
 				'hero-gradient': 'var(--hero-gradient)',
-				'card-gradient': 'var(--card-gradient)'
+				'card-gradient': 'var(--card-gradient)',
+				'profile-glow': 'var(--profile-glow)'
 			},
 			boxShadow: {
 				'soft': 'var(--shadow-soft)',
-				'elevated': 'var(--shadow-elevated)'
+				'elevated': 'var(--shadow-elevated)',
+				'neon': 'var(--shadow-neon)'
 			}
 		}
 	},

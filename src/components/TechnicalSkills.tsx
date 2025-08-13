@@ -61,12 +61,12 @@ const TechnicalSkills = () => {
 
   const getColorClass = (color: string) => {
     switch (color) {
-      case 'tech-blue': return 'border-tech-blue text-tech-blue hover:bg-tech-blue hover:text-white';
-      case 'tech-teal': return 'border-tech-teal text-tech-teal hover:bg-tech-teal hover:text-white';
-      case 'tech-purple': return 'border-tech-purple text-tech-purple hover:bg-tech-purple hover:text-white';
-      case 'primary': return 'border-primary text-primary hover:bg-primary hover:text-primary-foreground';
-      case 'accent': return 'border-accent text-accent hover:bg-accent hover:text-accent-foreground';
-      default: return 'border-primary text-primary hover:bg-primary hover:text-primary-foreground';
+      case 'tech-blue': return 'border-tech-blue text-tech-blue hover:bg-tech-blue hover:text-white shadow-neon';
+      case 'tech-teal': return 'border-tech-teal text-tech-teal hover:bg-tech-teal hover:text-white shadow-soft';
+      case 'tech-purple': return 'border-tech-purple text-tech-purple hover:bg-tech-purple hover:text-white shadow-elevated';
+      case 'primary': return 'border-primary text-primary hover:bg-primary hover:text-primary-foreground shadow-soft';
+      case 'accent': return 'border-accent text-accent hover:bg-accent hover:text-accent-foreground shadow-elevated';
+      default: return 'border-primary text-primary hover:bg-primary hover:text-primary-foreground shadow-soft';
     }
   };
 

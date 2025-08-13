@@ -65,13 +65,15 @@ const Hero = () => {
           {/* Profile Image */}
           <div className="flex-shrink-0 animate-fadeInUp" style={{ animationDelay: '0.3s' }}>
             <div className="relative">
-              <div className="absolute inset-0 bg-cloud-gradient rounded-3xl blur-lg animate-pulse-glow"></div>
-              <div className="relative bg-card-gradient p-2 rounded-3xl shadow-elevated">
-                <img
-                  src="/lovable-uploads/20ce3c82-7c5b-4e56-ba31-049aef91bd06.png"
-                  alt="Karmugilan K - Lead DevOps Engineer"
-                  className="w-80 h-80 lg:w-96 lg:h-96 object-cover rounded-2xl"
-                />
+              <div className="absolute inset-0 bg-profile-glow rounded-3xl blur-lg animate-pulse-glow"></div>
+              <div className="relative bg-card-gradient p-1 rounded-3xl shadow-neon">
+                <div className="p-2 bg-profile-glow rounded-3xl">
+                  <img
+                    src="/lovable-uploads/20ce3c82-7c5b-4e56-ba31-049aef91bd06.png"
+                    alt="Karmugilan K - Lead DevOps Engineer"
+                    className="w-80 h-80 lg:w-96 lg:h-96 object-cover rounded-2xl"
+                  />
+                </div>
               </div>
             </div>
           </div>
